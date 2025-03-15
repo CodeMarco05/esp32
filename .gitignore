@@ -1,0 +1,34 @@
+# Build artifacts
+/build/
+sdkconfig
+sdkconfig.old
+*.elf
+*.bin
+*.map
+
+# IDF and CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+/idf.py
+/.pioenvs/
+/.vscode/
+
+# Python virtual environment
+venv/
+.env/
+*.pyc
+__pycache__/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# ESP-IDF specific files
+.espressif/
+dist/
+components/.cache/
+.pio/
+.clangd/
+
